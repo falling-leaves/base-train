@@ -1,0 +1,55 @@
+// base layout for the application
+
+// fonts
+@rale: "Raleway";
+@robo: "Roboto";
+@osa: "Open Sans Light";
+
+// colors
+@prim: #37ff8b;
+@sec: #02a9ea;
+@text: #363537;
+
+// content layout
+
+body {
+    margin: 0;
+    font-family: @rale, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hdft() {
+    // header and footer
+    background-color: @prim;
+    color: @text;
+    padding: 20px 0 20px 0;
+    flex: 0 1 auto;
+}
+
+header {
+    .hdft();
+    nav {
+        .title {
+            font-size: 120%;
+            padding: 0 20px 0 20px;
+        }
+        .nav-link {
+            padding: 0 20px 0 0;
+        }
+    }
+}
+
+footer {
+    .hdft();
+    text-align: center;
+    width: 100%;
+    a {
+        text-decoration: none;
+    }
+}
+
+main {
+    flex: 1 0 auto
+}

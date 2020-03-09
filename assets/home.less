@@ -1,0 +1,45 @@
+@import "layout";
+
+.container {
+    font-family: @rale, sans-serif;
+    margin: 0 5% 0 5%;
+}
+
+.jumbotron {
+    padding: 25px;
+    background-color: lighten(@sec, 10%);
+    border-radius: 0 0 10px 10px;
+    color: @text;
+    h1 {
+        font: 60px @rale, sans-serif;
+        margin: 40px 0 40px 0;
+    }
+    .flav {
+        font: 20px @osa, sans-serif;
+    }
+}
+
+.content {
+    display: flex;
+    .pane {
+        flex: 1;
+        margin: 20px 10px 0 10px;
+        text-align: center;
+        p {
+            font-family: @osa, sans-serif;
+        }
+        .scn {
+            font-weight: 500;
+        }
+        .btn {
+            background-color: @sec;
+            padding: 10px;
+            border-radius: 5px;
+            color: @text;
+            font: 90% @rale, sans-serif;
+        }
+        .btn:hover {
+            background-color: @prim;
+        }
+    }
+}

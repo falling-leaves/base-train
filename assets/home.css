@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #37ff8b;
+  color: #363537;
+  padding: 20px 0 20px 0;
+  flex: 0 1 auto;
+}
+header nav .title {
+  font-size: 120%;
+  padding: 0 20px 0 20px;
+}
+header nav .nav-link {
+  padding: 0 20px 0 0;
+}
+footer {
+  background-color: #37ff8b;
+  color: #363537;
+  padding: 20px 0 20px 0;
+  flex: 0 1 auto;
+  text-align: center;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+}
+main {
+  flex: 1 0 auto;
+}
+.container {
+  font-family: "Raleway", sans-serif;
+  margin: 0 5% 0 5%;
+}
+.jumbotron {
+  padding: 25px;
+  background-color: #22c0fd;
+  border-radius: 0 0 10px 10px;
+  color: #363537;
+}
+.jumbotron h1 {
+  font: 60px "Raleway", sans-serif;
+  margin: 40px 0 40px 0;
+}
+.jumbotron .flav {
+  font: 20px "Open Sans Light", sans-serif;
+}
+.content {
+  display: flex;
+}
+.content .pane {
+  flex: 1;
+  margin: 20px 10px 0 10px;
+  text-align: center;
+}
+.content .pane p {
+  font-family: "Open Sans Light", sans-serif;
+}
+.content .pane .scn {
+  font-weight: 500;
+}
+.content .pane .btn {
+  background-color: #02a9ea;
+  padding: 10px;
+  border-radius: 5px;
+  color: #363537;
+  font: 90% "Raleway", sans-serif;
+}
+.content .pane .btn:hover {
+  background-color: #37ff8b;
+}

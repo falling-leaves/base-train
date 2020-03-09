@@ -1,0 +1,55 @@
+<!--application home page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>base-train</title>
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="assets/home.css">
+</head>
+<body>
+   <header>
+        <nav>
+            <span class="title">Base Train</span>
+            <span class="nav-link">Flagged</span>
+            <span class="nav-link">Unflagged</span>
+        </nav>
+   </header>
+   <main>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Base train</h1>
+                <p class="flav">A simple numerics speed training platform.</p>
+            </div>
+            <div class="content">
+                <div class="pane" id="unflag">
+                    <span class="scn">Unflagged courses</span>
+                    <p>
+                        The unflagged version of "Base Train" consists of different courses from which the user can choose.
+                        In each course, the user will answer a number of randomly generated questions under a specified time limit.
+                        At the end of the answering period, the average answering rate of the user will be noted.
+                        The unflagged courses can be used to gauge the expertise in technique of the user in multiple numerics fields.
+                    </p>
+                    <button disabled class="btn">Proceed to Unflagged</button>
+                </div>
+                <div class="pane" id="flag">
+                    <span class="scn">Flagged courses</span>
+                    <p>
+                        The flagged version of "Base Train" deals with the flexibility of the user to perform operations in different numerics fields.
+                        In a round, the player can choose which fields randomly generated questions will be based on.
+                        The time elapsed (and its mean) to answer all of the questions is considered to gauge the "agility" of the user in computation.
+                    </p>
+                    <button disabled class="btn">Proceed to Flagged</button>
+                </div>
+            </div>
+        </div>
+   </main>
+   <footer>
+        愛を込めて by ><a href="http://github.com/bldamalla">@bldamalla</a>
+   </footer>
+</body>
+</html>
