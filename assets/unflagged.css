@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #37ff8b;
+  color: #363537;
+  padding: 20px 0 20px 0;
+  flex: 0 1 auto;
+}
+header nav .title {
+  font-size: 120%;
+  padding: 0 20px 0 20px;
+}
+header nav .nav-link {
+  padding: 0 20px 0 0;
+  text-decoration: none;
+}
+footer {
+  background-color: #37ff8b;
+  color: #363537;
+  padding: 20px 0 20px 0;
+  flex: 0 1 auto;
+  text-align: center;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+}
+main {
+  flex: 1 0 auto;
+}
