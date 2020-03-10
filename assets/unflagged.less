@@ -1,3 +1,18 @@
 @import "layout";
 
-
+.container {
+    margin: 0 1vw 0 1vw;
+    display: flex;
+    .pane {
+        margin: 1vh 1vw 1vh 1vw;
+        flex-shrink: 0;
+        flex-basis: auto;
+        text-align: center;
+    }
+    #sel-pane {
+        flex-grow: 1;
+    }
+    #act-pane {
+        flex-grow: 4;
+    }
+}
