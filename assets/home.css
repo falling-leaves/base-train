@@ -13,10 +13,10 @@ header {
 }
 header nav .title {
   font-size: 120%;
-  padding: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 header nav .nav-link {
-  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
 }
 footer {
   background-color: #37ff8b;
@@ -67,9 +67,11 @@ main {
   background-color: #02a9ea;
   padding: 10px;
   border-radius: 5px;
+  border-color: #02a9ea;
   color: #363537;
   font: 90% "Raleway", sans-serif;
 }
 .content .pane .btn:hover {
-  background-color: #37ff8b;
+  background-color: #fff207;
+  border-color: #fff207;
 }
