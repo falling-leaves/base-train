@@ -19,6 +19,9 @@ header nav .nav-link {
   margin: 0 20px 0 0;
   text-decoration: none;
 }
+header nav .current {
+  background-color: #fff207;
+}
 footer {
   background-color: #37ff8b;
   color: #363537;
