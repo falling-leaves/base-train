@@ -52,16 +52,21 @@ main {
   flex-direction: column;
 }
 .container #sel-pane .btn {
-  width: 100%;
   flex: 1 0 auto;
   background-color: #02a9ea;
   border: 1px solid #02a9ea;
   color: #363537;
-  font-weight: bold;
+  font: 90% "Open Sans Light", sans-serif;
 }
 .container #sel-pane .btn:hover {
   background-color: #fff207;
   border: 1px solid #fff207;
+}
+.container #sel-pane .btn:first-of-type {
+  border-radius: 10px 10px 0 0;
+}
+.container #sel-pane .btn:last-of-type {
+  border-radius: 0 0 10px 10px;
 }
 .container #act-pane {
   flex-grow: 4;

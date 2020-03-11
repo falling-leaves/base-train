@@ -14,16 +14,21 @@
         display: inherit;
         flex-direction: column;
         .btn {
-            width: 100%;
             flex: 1 0 auto;
             background-color: @sec;
             border: 1px solid @sec;
             color: @text;
-            font-weight: bold;
+            font: 90% @osa, sans-serif;
         }
         .btn:hover {
             background-color: @hlight;
             border: 1px solid @hlight;
+        }
+        .btn:first-of-type {
+            border-radius: 10px 10px 0 0;
+        }
+        .btn:last-of-type {
+            border-radius: 0 0 10px 10px;
         }
     }
     #act-pane {
