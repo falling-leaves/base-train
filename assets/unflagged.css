@@ -48,6 +48,20 @@ main {
 }
 .container #sel-pane {
   flex-grow: 1;
+  display: inherit;
+  flex-direction: column;
+}
+.container #sel-pane .btn {
+  width: 100%;
+  flex: 1 0 auto;
+  background-color: #02a9ea;
+  border: 1px solid #02a9ea;
+  color: #363537;
+  font-weight: bold;
+}
+.container #sel-pane .btn:hover {
+  background-color: #fff207;
+  border: 1px solid #fff207;
 }
 .container #act-pane {
   flex-grow: 4;

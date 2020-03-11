@@ -11,6 +11,20 @@
     }
     #sel-pane {
         flex-grow: 1;
+        display: inherit;
+        flex-direction: column;
+        .btn {
+            width: 100%;
+            flex: 1 0 auto;
+            background-color: @sec;
+            border: 1px solid @sec;
+            color: @text;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: @hlight;
+            border: 1px solid @hlight;
+        }
     }
     #act-pane {
         flex-grow: 4;
