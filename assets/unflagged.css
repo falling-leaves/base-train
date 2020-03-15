@@ -71,3 +71,6 @@ main {
 .container #act-pane {
   flex-grow: 4;
 }
+.container #act-pane .flav {
+  font: bold 150% "Raleway", sans-serif;
+}
