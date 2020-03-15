@@ -58,7 +58,8 @@ main {
   color: #363537;
   font: 90% "Open Sans Light", sans-serif;
 }
-.container #sel-pane .btn:hover {
+.container #sel-pane .btn:hover,
+.container #sel-pane .active {
   background-color: #fff207;
   border: 1px solid #fff207;
 }
